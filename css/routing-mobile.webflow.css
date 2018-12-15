@@ -166,6 +166,8 @@
     padding-top: 20px;
     padding-bottom: 0px;
     font-size: 17px;
+    -webkit-appearance: none;
+    border-radius: 0;
   }
   .text-field:focus {
     border: 1px solid #26c1eb;
