@@ -383,5 +383,16 @@
     padding-bottom: 0px;
     font-size: 17px;
   }
-}
 
+/* Simon's Updates */
+
+  .header {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: -120px;
+  }
+
+}
