@@ -430,8 +430,8 @@
   border: 1px solid #26c1eb;
 }
 
-.search_from w-input {
+.search_from {
   -webkit-appearance: none;
-  border-radius: 0;  
+  border-radius: 0;
 }
 }
