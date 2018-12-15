@@ -401,6 +401,11 @@
     -webkit-appearance: none;
     border-radius: 0;
   }
+
+  .search_from:focus {
+    border: 1px solid #26c1eb;
+  }
+
 /* SImons CSS */
 
   .header {
