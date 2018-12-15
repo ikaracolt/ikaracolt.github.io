@@ -398,6 +398,8 @@
     padding-top: 20px;
     padding-bottom: 0px;
     font-size: 17px;
+    -webkit-appearance: none;
+    border-radius: 0;
   }
 /* SImons CSS */
 
@@ -430,8 +432,5 @@
   border: 1px solid #26c1eb;
 }
 
-.search_form {
-  -webkit-appearance: none;
-  border-radius: 0;
-}
+
 }
