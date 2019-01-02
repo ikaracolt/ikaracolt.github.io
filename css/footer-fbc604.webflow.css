@@ -2089,6 +2089,7 @@
   left: 0px;
   right: 0px;
   bottom: 0px;
+  z-index: 200;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3561,7 +3562,6 @@
   display: -ms-flexbox;
   display: flex;
   height: 64px;
-  padding-left: -10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -3949,7 +3949,7 @@
     left: 0px;
     right: 0px;
     bottom: 0px;
-    z-index: 200;
+    z-index: 300;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

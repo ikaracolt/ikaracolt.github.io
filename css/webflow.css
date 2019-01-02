@@ -334,14 +334,8 @@ label {
   color: #333333;
   vertical-align: middle;
   background-color: #ffffff;
-
   border: 1px solid #cccccc;
-
-
 }
-
-
-
 .w-input:-moz-placeholder,
 .w-select:-moz-placeholder {
   color: #999;
