@@ -3845,6 +3845,7 @@
   }
   .routing_top_from_block {
     z-index: 150;
+    height: 50px;
   }
   .form {
     -webkit-box-orient: horizontal;
@@ -3852,6 +3853,9 @@
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
+  }
+  .startend_date {
+    height: 50px;
   }
   .show-info-area {
     margin-right: 0px;
@@ -3861,6 +3865,9 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+  .inactive-field-50 {
+    height: 50px;
   }
   .left-container {
     width: 100%;
@@ -3873,7 +3880,11 @@
     padding-right: 10px;
     padding-left: 10px;
   }
+  .select_field {
+    height: 50px;
+  }
   .inner-form-block {
+    height: 75px;
     margin-bottom: 0px;
   }
   .save_buttons_desktop {
@@ -4156,6 +4167,9 @@
     padding-right: 10px;
     padding-left: 10px;
   }
+  .active_field {
+    height: 50px;
+  }
   .form_top {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -4328,4 +4342,3 @@
     display: flex;
   }
 }
-
