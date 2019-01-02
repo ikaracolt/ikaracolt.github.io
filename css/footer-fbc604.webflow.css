@@ -1708,7 +1708,7 @@
 }
 
 .dropdown-active {
-  margin-left: 40px;
+  /*margin-left: 40px;*/
 }
 
 .text-block-43 {
@@ -4563,4 +4563,3 @@
     height: 50px;
   }
 }
-
