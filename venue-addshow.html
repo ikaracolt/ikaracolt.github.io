@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Wed Jan 02 2019 01:43:25 GMT+0000 (UTC)  -->
+<!--  Last Published: Wed Jan 02 2019 15:44:19 GMT+0000 (UTC)  -->
 <html data-wf-page="5c2933539a15757b2389bddc" data-wf-site="5b291f97f63aa8076db6b5ce">
 <head>
   <meta charset="utf-8">
@@ -86,7 +86,7 @@
           <div class="icon w-icon-dropdown-toggle"></div>
           <div class="text-block-38">Venue</div>
         </div>
-        <nav class="dropdown-list-3 w-dropdown-list"><a href="routing-artist.html" class="dropdown-link-3 w-dropdown-link">Artist</a><a href="#" class="dropdown-link-3 w-dropdown-link">Venue</a><a href="#" class="dropdown-link-3 w-dropdown-link">Festival</a></nav>
+        <nav class="dropdown-list-3 w-dropdown-list"><a href="routing-artist.html" class="dropdown-link-3 w-dropdown-link">Artist</a><a href="venue-addshow.html" class="dropdown-link-3 w-dropdown-link w--current">Venue</a><a href="festival-addshow.html" class="dropdown-link-3 w-dropdown-link">Festival</a></nav>
       </div>
       <div class="div-block-16">
         <a href="old-home.html" class="nav-1-button w-inline-block">
@@ -173,7 +173,7 @@
                 <div class="routing_top_from_block w-form">
                   <form id="email-form" name="email-form" data-name="Email Form" class="form_top">
                     <div class="form_container">
-                      <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Search City Venue</label></div>
+                      <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Event Name?</label></div>
                     </div>
                   </form>
                   <div class="w-form-done">
@@ -189,6 +189,204 @@
           <div class="artist_list">
             <div class="shadow_down"></div>
             <div class="shadow_up"></div>
+            <div data-w-id="28b258bd-cd57-60fd-a2da-01fbd8282e54" class="artist_item_collapsed_white">
+              <div class="delete_confirmation">
+                <div class="div-block-35"><img src="images/trash.svg" alt="" class="image-6">
+                  <div class="text-block-65">Are you sure you want to delete this artist?</div><a data-w-id="28b258bd-cd57-60fd-a2da-01fbd8282e5a" href="#" class="button-8 w-button">Yes</a><a data-w-id="28b258bd-cd57-60fd-a2da-01fbd8282e5c" href="#" class="button-8 w-button">No</a></div>
+              </div>
+              <div class="delete-artist-area"><img src="images/garbage.svg" data-w-id="28b258bd-cd57-60fd-a2da-01fbd8282e5f" alt="" class="image-5"></div>
+              <div class="show_info_area_collapsed">
+                <div class="arrow_block"><img src="images/accordion_arrow.svg" alt="" class="accordion_arrow"></div>
+                <div class="left-container">
+                  <div class="routing_top_from_block w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form" class="form_top">
+                      <div class="form_container">
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Artist</label></div>
+                      </div>
+                      <div class="form_container">
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Rep Name</label></div>
+                      </div>
+                    </form>
+                    <div class="w-form-done">
+                      <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="w-form-fail">
+                      <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="right-container">
+                  <div class="routing_top_from_block w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form" class="form_top">
+                      <div class="form_container">
+                        <div class="form_title_collapsed">Venue Cut</div>
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Apparel</label></div>
+                      </div>
+                      <div class="form_container">
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Other</label></div>
+                      </div>
+                      <div class="form_container">
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Music</label></div>
+                      </div>
+                    </form>
+                    <div class="w-form-done">
+                      <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="w-form-fail">
+                      <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="right-container_add_artist">
+                  <div class="form_container">
+                    <div class="form_title_collapsed">Auto-Advance</div><a data-w-id="28b258bd-cd57-60fd-a2da-01fbd8282e94" href="#" class="invite_button w-button">Invite</a>
+                    <div class="resend_invite">
+                      <div class="text-block-63">Invite Sent</div>
+                      <div class="resend_invite_button">
+                        <div class="text-block-62">Re-Send</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="show_info_area_collapsed">
+                <div class="arrow_block"></div>
+                <div class="left-container">
+                  <div class="inner-form-block w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form" class="form">
+                      <div class="form_container"><select id="field-3" name="field-3" data-name="Field 3" class="select_field w-select"><option value="">Type</option><option value="First">First Choice</option><option value="Second">Second Choice</option><option value="Third">Third Choice</option></select></div>
+                      <div class="form_container">
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Artist</label></div>
+                      </div>
+                    </form>
+                    <div class="w-form-done">
+                      <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="w-form-fail">
+                      <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="left-container">
+                  <div class="inner-form-block w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form" class="form">
+                      <div class="form_container">
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Rep Email</label></div>
+                      </div>
+                      <div class="form_container">
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Tax ID #</label></div>
+                      </div>
+                    </form>
+                    <div class="w-form-done">
+                      <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="w-form-fail">
+                      <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="right-container_add_artist"><a href="#" class="button-6 w-button">Save Artist</a></div>
+              </div>
+            </div>
+            <div data-w-id="e460670e-5ea6-56ad-3520-688b7f1b6b53" class="artist_item_collapsed_grey">
+              <div class="delete_confirmation">
+                <div class="div-block-35"><img src="images/trash.svg" alt="" class="image-6">
+                  <div class="text-block-65">Are you sure you want to delete this artist?</div><a data-w-id="e460670e-5ea6-56ad-3520-688b7f1b6b59" href="#" class="button-8 w-button">Yes</a><a data-w-id="e460670e-5ea6-56ad-3520-688b7f1b6b5b" href="#" class="button-8 w-button">No</a></div>
+              </div>
+              <div class="delete-artist-area"><img src="images/garbage.svg" data-w-id="e460670e-5ea6-56ad-3520-688b7f1b6b5e" alt="" class="image-5"></div>
+              <div data-w-id="e460670e-5ea6-56ad-3520-688b7f1b6b5f" class="show_info_area_collapsed">
+                <div class="arrow_block"><img src="images/accordion_arrow.svg" data-w-id="e460670e-5ea6-56ad-3520-688b7f1b6b61" alt="" class="accordion_arrow"></div>
+                <div class="left-container">
+                  <div class="routing_top_from_block w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form" class="form_top">
+                      <div class="form_container">
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Artist</label></div>
+                      </div>
+                      <div class="form_container">
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Rep Name</label></div>
+                      </div>
+                    </form>
+                    <div class="w-form-done">
+                      <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="w-form-fail">
+                      <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="right-container">
+                  <div class="routing_top_from_block w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form" class="form_top">
+                      <div class="form_container">
+                        <div data-w-id="e460670e-5ea6-56ad-3520-688b7f1b6b79" class="form_title_collapsed">Venue Cut</div>
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Apparel</label></div>
+                      </div>
+                      <div class="form_container">
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Other</label></div>
+                      </div>
+                      <div class="form_container">
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Music</label></div>
+                      </div>
+                    </form>
+                    <div class="w-form-done">
+                      <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="w-form-fail">
+                      <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="right-container_add_artist">
+                  <div class="form_container">
+                    <div data-w-id="e460670e-5ea6-56ad-3520-688b7f1b6b91" class="form_title_collapsed">Auto-Advance</div><a data-w-id="e460670e-5ea6-56ad-3520-688b7f1b6b93" href="#" class="invite_button w-button">Invite</a>
+                    <div class="resend_invite">
+                      <div class="text-block-63">Invite Sent</div>
+                      <div class="resend_invite_button">
+                        <div class="text-block-62">Re-Send</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-w-id="e460670e-5ea6-56ad-3520-688b7f1b6b9b" class="show_info_area_collapsed">
+                <div class="arrow_block"></div>
+                <div class="left-container">
+                  <div class="inner-form-block w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form" class="form">
+                      <div class="form_container"><select id="field-3" name="field-3" data-name="Field 3" class="select_field w-select"><option value="">Type</option><option value="First">First Choice</option><option value="Second">Second Choice</option><option value="Third">Third Choice</option></select></div>
+                      <div class="form_container">
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Artist</label></div>
+                      </div>
+                    </form>
+                    <div class="w-form-done">
+                      <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="w-form-fail">
+                      <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="left-container">
+                  <div class="inner-form-block w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form" class="form">
+                      <div class="form_container">
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Rep Email</label></div>
+                      </div>
+                      <div class="form_container">
+                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Tax ID #</label></div>
+                      </div>
+                    </form>
+                    <div class="w-form-done">
+                      <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="w-form-fail">
+                      <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="right-container_add_artist"><a href="#" class="button-6 w-button">Save Artist</a></div>
+              </div>
+            </div>
             <div data-w-id="52cd23d4-353f-f3c5-403b-5cbd7fb031f3" class="artist_item_collapsed_white">
               <div data-w-id="0d23a9ca-1d5d-7e20-22da-c4d9fc3a8699" class="delete_confirmation">
                 <div class="div-block-35"><img src="images/trash.svg" alt="" class="image-6">
@@ -196,7 +394,7 @@
               </div>
               <div class="delete-artist-area"><img src="images/garbage.svg" data-w-id="5577600d-b504-9d12-8c05-c42c2bf8403e" alt="" class="image-5"></div>
               <div data-w-id="2c9a3f0c-021f-cf7d-b38b-949d9230668e" class="show_info_area_collapsed">
-                <div class="arrow_block"><img src="images/accordion_arrow.svg" data-w-id="4509b5a6-e745-6bba-3b01-7f8e47e1c393" alt=""></div>
+                <div class="arrow_block"><img src="images/accordion_arrow.svg" data-w-id="4509b5a6-e745-6bba-3b01-7f8e47e1c393" alt="" class="accordion_arrow"></div>
                 <div class="left-container">
                   <div class="routing_top_from_block w-form">
                     <form id="email-form" name="email-form" data-name="Email Form" class="form_top">
@@ -288,14 +486,14 @@
                 <div class="right-container_add_artist"><a href="#" class="button-6 w-button">Save Artist</a></div>
               </div>
             </div>
-            <div class="artist_item_collapsed_grey">
+            <div data-w-id="8478be95-0e59-eab3-b0e2-25e210048e05" class="artist_item_collapsed_grey_save">
               <div class="delete_confirmation">
                 <div class="div-block-35"><img src="images/trash.svg" alt="" class="image-6">
-                  <div class="text-block-65">Are you sure you want to delete this artist?</div><a data-w-id="96cf16a0-e72e-a0c1-e89c-b7ee8bddf4e7" href="#" class="button-8 w-button">Yes</a><a data-w-id="96cf16a0-e72e-a0c1-e89c-b7ee8bddf4e9" href="#" class="button-8 w-button">No</a></div>
+                  <div class="text-block-65">Are you sure you want to delete this artist?</div><a data-w-id="8478be95-0e59-eab3-b0e2-25e210048e0b" href="#" class="button-8 w-button">Yes</a><a data-w-id="8478be95-0e59-eab3-b0e2-25e210048e0d" href="#" class="button-8 w-button">No</a></div>
               </div>
-              <div class="delete-artist-area"><img src="images/garbage.svg" data-w-id="96cf16a0-e72e-a0c1-e89c-b7ee8bddf4ec" alt="" class="image-5"></div>
+              <div class="delete-artist-area"><img src="images/garbage.svg" data-w-id="8478be95-0e59-eab3-b0e2-25e210048e10" alt="" class="image-5"></div>
               <div class="show_info_area_collapsed">
-                <div class="arrow_block"><img src="images/accordion_arrow.svg" data-w-id="96cf16a0-e72e-a0c1-e89c-b7ee8bddf4ef" alt=""></div>
+                <div class="arrow_block"><img src="images/accordion_arrow.svg" alt="" class="accordion_arrow"></div>
                 <div class="left-container">
                   <div class="routing_top_from_block w-form">
                     <form id="email-form" name="email-form" data-name="Email Form" class="form_top">
@@ -318,6 +516,7 @@
                   <div class="routing_top_from_block w-form">
                     <form id="email-form" name="email-form" data-name="Email Form" class="form_top">
                       <div class="form_container">
+                        <div class="form_title_collapsed">Venue Cut</div>
                         <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Apparel</label></div>
                       </div>
                       <div class="form_container">
@@ -337,203 +536,7 @@
                 </div>
                 <div class="right-container_add_artist">
                   <div class="form_container">
-                    <div class="form_title_collapsed">Auto-Advance</div><a data-w-id="96cf16a0-e72e-a0c1-e89c-b7ee8bddf51f" href="#" class="invite_button w-button">Invite</a>
-                    <div class="resend_invite">
-                      <div class="text-block-63">Invite Sent</div>
-                      <div class="resend_invite_button">
-                        <div class="text-block-62">Re-Send</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="show_info_area_collapsed">
-                <div class="arrow_block"></div>
-                <div class="left-container">
-                  <div class="inner-form-block w-form">
-                    <form id="email-form" name="email-form" data-name="Email Form" class="form">
-                      <div class="form_container"><select id="field-3" name="field-3" data-name="Field 3" class="select_field w-select"><option value="">Type</option><option value="First">First Choice</option><option value="Second">Second Choice</option><option value="Third">Third Choice</option></select></div>
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Artist</label></div>
-                      </div>
-                    </form>
-                    <div class="w-form-done">
-                      <div>Thank you! Your submission has been received!</div>
-                    </div>
-                    <div class="w-form-fail">
-                      <div>Oops! Something went wrong while submitting the form.</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="left-container">
-                  <div class="inner-form-block w-form">
-                    <form id="email-form" name="email-form" data-name="Email Form" class="form">
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Rep Email</label></div>
-                      </div>
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Tax ID #</label></div>
-                      </div>
-                    </form>
-                    <div class="w-form-done">
-                      <div>Thank you! Your submission has been received!</div>
-                    </div>
-                    <div class="w-form-fail">
-                      <div>Oops! Something went wrong while submitting the form.</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="right-container_add_artist"><a href="#" class="button-6 w-button">Save Artist</a></div>
-              </div>
-            </div>
-            <div class="artist_item_collapsed_white">
-              <div class="delete_confirmation">
-                <div class="div-block-35"><img src="images/trash.svg" alt="" class="image-6">
-                  <div class="text-block-65">Are you sure you want to delete this artist?</div><a data-w-id="1cfb397b-ab14-ac18-4016-a4c661bbda35" href="#" class="button-8 w-button">Yes</a><a data-w-id="1cfb397b-ab14-ac18-4016-a4c661bbda37" href="#" class="button-8 w-button">No</a></div>
-              </div>
-              <div class="delete-artist-area"><img src="images/garbage.svg" data-w-id="1cfb397b-ab14-ac18-4016-a4c661bbda3a" alt="" class="image-5"></div>
-              <div class="show_info_area_collapsed">
-                <div class="arrow_block"><img src="images/accordion_arrow.svg" data-w-id="1cfb397b-ab14-ac18-4016-a4c661bbda3d" alt=""></div>
-                <div class="left-container">
-                  <div class="routing_top_from_block w-form">
-                    <form id="email-form" name="email-form" data-name="Email Form" class="form_top">
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Artist</label></div>
-                      </div>
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Rep Name</label></div>
-                      </div>
-                    </form>
-                    <div class="w-form-done">
-                      <div>Thank you! Your submission has been received!</div>
-                    </div>
-                    <div class="w-form-fail">
-                      <div>Oops! Something went wrong while submitting the form.</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="right-container">
-                  <div class="routing_top_from_block w-form">
-                    <form id="email-form" name="email-form" data-name="Email Form" class="form_top">
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Apparel</label></div>
-                      </div>
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Other</label></div>
-                      </div>
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Music</label></div>
-                      </div>
-                    </form>
-                    <div class="w-form-done">
-                      <div>Thank you! Your submission has been received!</div>
-                    </div>
-                    <div class="w-form-fail">
-                      <div>Oops! Something went wrong while submitting the form.</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="right-container_add_artist">
-                  <div class="form_container">
-                    <div class="form_title_collapsed">Auto-Advance</div><a data-w-id="1cfb397b-ab14-ac18-4016-a4c661bbda6d" href="#" class="invite_button w-button">Invite</a>
-                    <div class="resend_invite">
-                      <div class="text-block-63">Invite Sent</div>
-                      <div class="resend_invite_button">
-                        <div class="text-block-62">Re-Send</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="show_info_area_collapsed">
-                <div class="arrow_block"></div>
-                <div class="left-container">
-                  <div class="inner-form-block w-form">
-                    <form id="email-form" name="email-form" data-name="Email Form" class="form">
-                      <div class="form_container"><select id="field-3" name="field-3" data-name="Field 3" class="select_field w-select"><option value="">Type</option><option value="First">First Choice</option><option value="Second">Second Choice</option><option value="Third">Third Choice</option></select></div>
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Artist</label></div>
-                      </div>
-                    </form>
-                    <div class="w-form-done">
-                      <div>Thank you! Your submission has been received!</div>
-                    </div>
-                    <div class="w-form-fail">
-                      <div>Oops! Something went wrong while submitting the form.</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="left-container">
-                  <div class="inner-form-block w-form">
-                    <form id="email-form" name="email-form" data-name="Email Form" class="form">
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Rep Email</label></div>
-                      </div>
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Tax ID #</label></div>
-                      </div>
-                    </form>
-                    <div class="w-form-done">
-                      <div>Thank you! Your submission has been received!</div>
-                    </div>
-                    <div class="w-form-fail">
-                      <div>Oops! Something went wrong while submitting the form.</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="right-container_add_artist"><a href="#" class="button-6 w-button">Save Artist</a></div>
-              </div>
-            </div>
-            <div data-w-id="f8139fba-92ab-49ea-3387-b02483a5b754" class="artist_item_collapsed_grey_save">
-              <div class="delete_confirmation">
-                <div class="div-block-35"><img src="images/trash.svg" alt="" class="image-6">
-                  <div class="text-block-65">Are you sure you want to delete this artist?</div><a data-w-id="f8139fba-92ab-49ea-3387-b02483a5b75a" href="#" class="button-8 w-button">Yes</a><a data-w-id="f8139fba-92ab-49ea-3387-b02483a5b75c" href="#" class="button-8 w-button">No</a></div>
-              </div>
-              <div class="delete-artist-area"><img src="images/garbage.svg" data-w-id="f8139fba-92ab-49ea-3387-b02483a5b75f" alt="" class="image-5"></div>
-              <div class="show_info_area_collapsed">
-                <div class="arrow_block"><img src="images/accordion_arrow.svg" data-w-id="f8139fba-92ab-49ea-3387-b02483a5b762" alt=""></div>
-                <div class="left-container">
-                  <div class="routing_top_from_block w-form">
-                    <form id="email-form" name="email-form" data-name="Email Form" class="form_top">
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Artist</label></div>
-                      </div>
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Rep Name</label></div>
-                      </div>
-                    </form>
-                    <div class="w-form-done">
-                      <div>Thank you! Your submission has been received!</div>
-                    </div>
-                    <div class="w-form-fail">
-                      <div>Oops! Something went wrong while submitting the form.</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="right-container">
-                  <div class="routing_top_from_block w-form">
-                    <form id="email-form" name="email-form" data-name="Email Form" class="form_top">
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Apparel</label></div>
-                      </div>
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Other</label></div>
-                      </div>
-                      <div class="form_container">
-                        <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Music</label></div>
-                      </div>
-                    </form>
-                    <div class="w-form-done">
-                      <div>Thank you! Your submission has been received!</div>
-                    </div>
-                    <div class="w-form-fail">
-                      <div>Oops! Something went wrong while submitting the form.</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="right-container_add_artist">
-                  <div class="form_container">
-                    <div class="form_title_collapsed">Auto-Advance</div><a data-w-id="f8139fba-92ab-49ea-3387-b02483a5b792" href="#" class="invite_button w-button">Invite</a>
+                    <div class="form_title_collapsed">Auto-Advance</div><a data-w-id="8478be95-0e59-eab3-b0e2-25e210048e45" href="#" class="invite_button w-button">Invite</a>
                     <div class="resend_invite">
                       <div class="text-block-63">Invite Sent</div>
                       <div class="resend_invite_button">
@@ -721,7 +724,7 @@
                 <div class="routing_top_from_block w-form">
                   <form id="email-form" name="email-form" data-name="Email Form" class="form_top">
                     <div class="form_container">
-                      <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Search City Venue</label></div>
+                      <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Event Name?</label></div>
                     </div>
                   </form>
                   <div class="w-form-done">
@@ -806,7 +809,7 @@
                 <div class="routing_top_from_block w-form">
                   <form id="email-form" name="email-form" data-name="Email Form" class="form_top">
                     <div class="form_container">
-                      <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Search City Venue</label></div>
+                      <div class="form_label_container"><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="startend_date w-input"><label for="name-3" class="field-label">Event Name?</label></div>
                     </div>
                   </form>
                   <div class="w-form-done">
