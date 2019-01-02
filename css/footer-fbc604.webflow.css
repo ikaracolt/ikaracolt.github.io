@@ -1590,7 +1590,7 @@
 .dropdown-toggle {
   margin-left: 40px;
   padding-top: 40px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   font-family: Roboto, sans-serif;
   color: #606060;
   font-size: 16px;
@@ -3807,6 +3807,10 @@
 }
 
 @media (max-width: 991px) {
+  .dropdown_active {
+    position: absolute;
+    top: 20px;
+  }
   .show-item {
     height: 120px;
     padding: 20px;
@@ -4300,6 +4304,7 @@
     font-weight: 500;
   }
   .icon-3 {
+    margin-right: 20px;
     color: #fff;
   }
   .second_nav_mobile {
@@ -4469,7 +4474,9 @@
     padding-top: 15px;
   }
   .dropdown-toggle-5 {
+    width: 100px;
     padding-top: 15px;
+    padding-right: 20px;
     padding-bottom: 15px;
   }
   .dropdown-list-5 {
