@@ -336,7 +336,15 @@ label {
   background-color: #ffffff;
   border-radius: 0px!important;
   border: 1px solid #cccccc;
+
 }
+
+input[type=text] {
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    appearance: none!important;
+}
+
 .w-input:-moz-placeholder,
 .w-select:-moz-placeholder {
   color: #999;
