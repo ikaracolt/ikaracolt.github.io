@@ -4346,12 +4346,12 @@
   /*Simon*/
 
   input[type=text] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    appearance: none!important;
 }
 
 .w-input {
-  border-radius: 0px;
+  border-radius: 0px!important;
   }
 }
