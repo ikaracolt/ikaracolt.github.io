@@ -4341,4 +4341,17 @@
     display: -ms-flexbox;
     display: flex;
   }
+
+
+  /*Simon*/
+
+  input[type=text] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.w-input {
+  border-radius: 0px;
+  }
 }
