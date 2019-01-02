@@ -3806,6 +3806,10 @@
   border-left: 5px solid transparent;
 }
 
+.tab-pane-artist {
+  padding-bottom: 100px;
+}
+
 @media (max-width: 991px) {
   .dropdown_active {
     position: absolute;
@@ -3953,6 +3957,7 @@
     height: 50px;
   }
   .form {
+    min-height: 73px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -3976,12 +3981,13 @@
   }
   .left-container {
     width: 100%;
+    min-height: 73px;
     padding-right: 10px;
     padding-left: 10px;
   }
   .right-container {
     width: 100%;
-    min-height: 0px;
+    min-height: 73px;
     padding-right: 10px;
     padding-left: 10px;
   }
@@ -4002,7 +4008,7 @@
     margin-bottom: 20px;
   }
   .mobile_tabs_menu {
-    z-index: 200;
+    z-index: 300;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -4027,7 +4033,7 @@
     padding-bottom: 100px;
   }
   .tab-pane-show {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
   .tabs-4 {
     margin-right: 0px;
@@ -4354,6 +4360,9 @@
     padding-right: 20px;
     padding-left: 20px;
   }
+  .artist_item {
+    padding-bottom: 30px;
+  }
   .show_info_area_collapsed {
     margin-right: 0px;
     margin-left: 0px;
@@ -4368,13 +4377,14 @@
   }
   .button-6 {
     width: 100%;
+    margin-top: 75px;
   }
   .text-block-61 {
     margin-left: 25px;
   }
   .right-container_add_artist {
     width: 100%;
-    min-height: 0px;
+    min-height: 73px;
     padding-right: 10px;
     padding-left: 10px;
   }
@@ -4468,6 +4478,7 @@
   }
   .dropdown-toggle-4 {
     padding-top: 15px;
+    padding-right: 20px;
     padding-bottom: 15px;
   }
   .dropdown-toggle-4.w--open {
@@ -4498,6 +4509,7 @@
   }
   .dropdown-toggle-6 {
     padding-top: 15px;
+    padding-right: 20px;
     padding-bottom: 15px;
   }
   .dropdown-list-6 {
