@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="39px" viewBox="0 0 50 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 39 49.6596939 39 49.6596939 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPad---Counts---Artist---Counts" transform="translate(-48.000000, -429.000000)">
+            <g id="Group-25" transform="translate(30.000000, 406.000000)">
+                <g id="Group-7" transform="translate(18.000000, 23.000000)">
+                    <polygon id="Fill-1" fill="#BBBBBB" points="33.3426531 19.9191987 27.9855102 26.8114224 19.4727551 15.8601197 6.90336735 32.0307513 42.7569388 32.0307513"></polygon>
+                    <g id="Group-6">
+                        <path d="M32.0172959,13.9825263 C33.9422959,13.9825263 35.5035204,12.4127763 35.5035204,10.4761184 C35.5035204,8.53946053 33.9422959,6.96919737 32.0172959,6.96919737 C30.0917857,6.96919737 28.5310714,8.53946053 28.5310714,10.4761184 C28.5310714,12.4127763 30.0917857,13.9825263 32.0172959,13.9825263" id="Fill-2" fill="#BBBBBB"></path>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-5"></g>
+                        <path d="M3.06122449,35.9210526 L46.5984694,35.9210526 L46.5984694,3.07894737 L3.06122449,3.07894737 L3.06122449,35.9210526 Z M0,39 L49.6596939,39 L49.6596939,0 L0,0 L0,39 Z" id="Fill-4" fill="#BBBBBB" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
