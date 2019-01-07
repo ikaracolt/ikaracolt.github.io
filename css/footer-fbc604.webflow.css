@@ -1708,7 +1708,9 @@
   height: 100%;
 }
 
-
+.dropdown-active {
+  margin-left: 40px;
+}
 
 .text-block-43 {
   font-family: Roboto, sans-serif;
@@ -3907,6 +3909,10 @@
   background-color: transparent;
 }
 
+.edit_artist_item_mobile {
+  display: none;
+}
+
 .edit_artist_item {
   border-left: 5px solid hsla(0, 0%, 100%, 0);
 }
@@ -5774,3 +5780,4 @@
     padding-left: 10px;
   }
 }
+
