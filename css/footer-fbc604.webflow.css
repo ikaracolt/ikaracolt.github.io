@@ -3992,7 +3992,8 @@
 }
 
 .level_three {
-  position: relative;
+  position: sticky;
+  top:0px;
   display: block;
   height: 44px;
   -webkit-box-pack: end;
@@ -5837,4 +5838,3 @@
     padding-left: 10px;
   }
 }
-
