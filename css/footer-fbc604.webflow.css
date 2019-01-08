@@ -4848,7 +4848,7 @@
   border-left: 1px solid hsla(0, 0%, 73%, .5);
 }
 
-.button-11 {
+.counts_bottom_bar_button {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4873,7 +4873,7 @@
   font-weight: 400;
 }
 
-.button-11:hover {
+.counts_bottom_bar_button:hover {
   background-color: #26c1eb;
   color: #fff;
 }
@@ -5008,6 +5008,179 @@
 .red_bar {
   height: 40px;
   background-color: red;
+}
+
+.counts_add_item_overlay {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 4000;
+  display: none;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+}
+
+.image-12 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.image-12:hover {
+  opacity: 0.75;
+}
+
+.div-block-72 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.div-block-73 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.div-block-74 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.div-block-75 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.text-block-86 {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  font-family: Roboto, sans-serif;
+  color: #606060;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.counts_overlay_left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.counts_overlay_right {
+  width: 50%;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.div-block-76 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85px;
+  height: 85px;
+  margin-top: 25px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid #bbb;
+  background-color: #f8f8f8;
+}
+
+.text-block-87 {
+  color: #bbb;
+  font-size: 9px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.div-block-77 {
+  width: 105px;
+  height: 100%;
+}
+
+.div-block-78 {
+  width: 100%;
+}
+
+.left-container-copy {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 68px;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 @media (max-width: 991px) {
@@ -5845,6 +6018,12 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
+    min-height: 73px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .left-container-copy {
     width: 100%;
     min-height: 73px;
     padding-right: 10px;
