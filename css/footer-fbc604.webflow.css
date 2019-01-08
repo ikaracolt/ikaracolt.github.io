@@ -3992,7 +3992,12 @@
 }
 
 .level_three {
-  position: relative;
+  position: -webkit-sticky;
+   position: -moz-sticky;
+   position: -ms-sticky;
+   position: -o-sticky;
+   position: sticky!important;
+   top: 0px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5840,4 +5845,3 @@
     padding-left: 10px;
   }
 }
-
