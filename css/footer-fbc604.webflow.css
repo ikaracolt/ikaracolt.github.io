@@ -3992,10 +3992,8 @@
 }
 
 .level_three {
-  position: -webkit- sticky;
-  position: sticky;
-  top:0px;
-
+  position: relative;
+  z-index: 3000;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4008,6 +4006,7 @@
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
   background-color: #eaeaea;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
 }
 
 .dropdown-4 {
@@ -5006,6 +5005,11 @@
   width: 30%;
 }
 
+.red_bar {
+  height: 40px;
+  background-color: red;
+}
+
 @media (max-width: 991px) {
   .dropdown_active {
     position: absolute;
@@ -5847,3 +5851,4 @@
     padding-left: 10px;
   }
 }
+
