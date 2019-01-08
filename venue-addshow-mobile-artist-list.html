@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Jan 08 2019 15:56:33 GMT+0000 (UTC)  -->
+<!--  Last Published: Tue Jan 08 2019 16:04:12 GMT+0000 (UTC)  -->
 <html data-wf-page="5c2e57f304f5b2335cab0b38" data-wf-site="5b291f97f63aa8076db6b5ce">
 <head>
   <meta charset="utf-8">
@@ -29,6 +29,72 @@
     </script>
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
+  <style>
+      .w-container {
+        max-width: 1385px;
+      }
+      .mobile_tabs_menu {
+        position: -webkit-sticky;
+        position: -moz-sticky;
+        position: -ms-sticky;
+        position: -o-sticky;
+        position: sticky;
+        top: 0px;
+      }
+      .tabs_menu_shows_mobile {
+        position: -webkit-sticky;
+        position: -moz-sticky;
+        position: -ms-sticky;
+        position: -o-sticky;
+        position: sticky;
+        top: 0px;
+      }
+      input {
+        font-size: 16px!important;
+        font-weight: 400!important;
+        color: #606060!important;
+        padding: 18px 10px 2px 10px!important;
+        display: block!important;
+      }
+      label {
+        font-size: 16px!important;
+        font-weight: 400!important;
+        pointer-events: none!important;
+        left: 10px!important;
+        top: 20px!important;
+        transition: 0.2s ease all!important;
+      }
+      input:focus~label {
+        top: 2px!important;
+        font-size: 10px!important;
+      }
+      input[type=text] {
+        -webkit-appearance: none!important;
+        -moz-appearance: none!important;
+        appearance: none!important;
+      }
+      .w-input {
+        border-radius: 0px!important;
+      }
+      select,
+      .w-select,
+      .select_field {
+        -webkit-appearance: none!important;
+        border-radius: 0px!important;
+        font-size: 16px!important;
+        font-weight: 400!important;
+        color: #bbb!important;
+        padding-top: 3px;
+        background: #fff!important;
+        border-color: #bbb;
+      }
+      select option {
+        background: #fff!important;
+      }
+      select:focus {
+        border: 1px #26c1eb;
+      }
+    </style>
 </head>
 <body class="body-6">
   <div class="nav">
@@ -922,7 +988,7 @@
     <div class="save_buttons_desktop"><a href="#" class="button-4 w-button">Cancel</a><a href="#" class="button-4 w-button">Save Show</a><a href="#" class="button-4 w-button">Save &amp; New</a></div>
   </div>
   <div data-w-id="34815a0b-a6fd-9255-a42a-62adf3c3d851" class="save_buttons_mobile"><a href="old-home.html" class="mobile_save_button w-button">Save Show</a><a href="#" class="mobile_save_button w-button">Save &amp; New</a></div>
-  <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
