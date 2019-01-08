@@ -3992,8 +3992,8 @@
 }
 
 .level_three {
-  position: sticky;
-  top:0px;
+  position: sticky!important;
+  top:0px!important;
   display: block;
   height: 44px;
   -webkit-box-pack: end;
