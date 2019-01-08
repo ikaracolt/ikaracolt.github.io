@@ -3805,17 +3805,16 @@
 .div-block-45 {
   display: block;
   height: 159%;
-  border-left: 5px solid #26c1eb;
   background-color: #f8f8f8;
 }
 
 .div-block-46 {
   height: 100%;
-  border-left: 5px solid transparent;
+  border-left: 0px solid transparent;
 }
 
 .div-block-47 {
-  border-left: 5px solid transparent;
+  border-left: 0px solid transparent;
 }
 
 .tab-pane-artist {
@@ -6098,7 +6097,7 @@
   }
   .artist_item_collpased_mobile {
     height: 70px;
-    border-left: 5px solid transparent;
+    border-left: 0px solid transparent;
   }
   .left-container_artist_list {
     width: 100%;
@@ -6154,7 +6153,6 @@
   }
   .artist_item_collpased_grey_mobile {
     height: 70px;
-    border-left: 5px solid #26c1eb;
     background-color: #f8f8f8;
   }
   .left-container_artist_list_mobile {
