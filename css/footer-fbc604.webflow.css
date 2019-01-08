@@ -5837,7 +5837,7 @@ input:focus ~ label {
   border-radius: 0px!important;
   }
 
-.w-select {
+.w-select, .select_field {
   -webkit-appearance:none!important;
   border-radius: 0px!important;
   font-size:16px!important;
