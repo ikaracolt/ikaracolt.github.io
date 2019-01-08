@@ -3992,9 +3992,11 @@
 }
 
 .level_three {
-  position: sticky!important;
-  top:0px!important;
-  display: block;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   height: 44px;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
@@ -4997,6 +4999,10 @@
   justify-content: center;
 }
 
+.div-block-71 {
+  width: 30%;
+}
+
 @media (max-width: 991px) {
   .dropdown_active {
     position: absolute;
@@ -5838,3 +5844,4 @@
     padding-left: 10px;
   }
 }
+
