@@ -4163,24 +4163,27 @@
 
 .div-block-54 {
   width: 100%;
-  height: 43px;
   padding-top: 13px;
 }
 
 .text-block-74 {
+  margin-top: 15px;
   font-family: Roboto, sans-serif;
   color: #606060;
   font-size: 10px;
+  line-height: 18px;
   font-weight: 500;
-  text-align: center;
+  text-align: left;
 }
 
 .text-block-75 {
+  margin-top: 15px;
   font-family: Roboto, sans-serif;
   color: #606060;
   font-size: 10px;
+  line-height: 18px;
   font-weight: 500;
-  text-align: right;
+  text-align: left;
 }
 
 .bold-text-2 {
@@ -5480,8 +5483,7 @@
 }
 
 .div-block-90 {
-  width: 40%;
-  height: 43px;
+  width: 80%;
   min-width: 105px;
 }
 
@@ -5674,7 +5676,7 @@
 }
 
 .div-block-53-copy {
-  position: static;
+  position: relative;
   width: 100%;
   height: 100%;
   padding-top: 10px;
@@ -5834,7 +5836,7 @@
 .counts_side_slider {
   position: absolute;
   left: -400px;
-  z-index: 3500;
+  z-index: 2500;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5983,6 +5985,43 @@
 
 .add:hover {
   opacity: 0.5;
+}
+
+.artist_venue_rep_area_venue_festival {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 86px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-bottom: 1px solid #bbb;
+}
+
+.text-block-97 {
+  margin-top: 25px;
+  margin-left: 20px;
+  font-family: Roboto, sans-serif;
+  color: #606060;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.div-block-54-copy {
+  width: 100%;
+  padding-top: 13px;
+}
+
+.text-block-74-copy {
+  margin-top: 15px;
+  font-family: Roboto, sans-serif;
+  color: #606060;
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: right;
 }
 
 @media (max-width: 991px) {
