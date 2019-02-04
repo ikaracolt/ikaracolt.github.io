@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="252px" height="68px" viewBox="0 0 252 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M130.961941,60.6152237 L126.192388,65.3847763 L121.422836,60.6152237 L1,60.6152237 L1,0.615223689 L251,0.615223689 L251,60.6152237 L130.961941,60.6152237 Z" id="path-1"></path>
+        <filter x="-0.8%" y="-1.5%" width="101.6%" height="106.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Combined-Shape" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <path stroke="#26C1EB" stroke-width="1" d="M250.5,60.1152237 L250.5,1.11522369 L1.5,1.11522369 L1.5,60.1152237 L121.629942,60.1152237 L126.192388,64.6776695 L130.754834,60.1152237 L250.5,60.1152237 Z" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd"></path>
+        </g>
+    </g>
+</svg>
